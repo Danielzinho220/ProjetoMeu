@@ -1,0 +1,66 @@
+
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 0;
+    background: rgb(82, 13, 82);
+}
+header{
+    height: calc(100vh - 150px);
+    background: no-repeat center/cover url('br.jfif');
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 30px;
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+
+.header-content{
+   max-width: 400px;
+   margin: 150px auto;
+   text-align: center;
+
+}
+
+.header-content h1 {
+  margin-bottom: 10px;
+ font-size: 4rem;
+
+}
+header nav p{
+    font-weight: bold;
+}
+
+
+body{
+    background-color: rgb(218, 207, 207);
+
+}
+img.nick:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.95;
+    -moz-opacity: 0.55;
+    filter: alpha(opacity = 65);
+      
+    }
+h2.solid {
+        border-style: solid;
+    }
+
+    /*parte de baixo */
